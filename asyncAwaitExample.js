@@ -1,3 +1,6 @@
+
+//How async await works in javascript it is introduced is ES6 
+
 let uri = "https://jsonplaceholder.typicode.com/todos";
 async function fetchData() {
     console.log("execution starts")
