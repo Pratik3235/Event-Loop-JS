@@ -33,10 +33,10 @@ The Event Loop is a mechanism that allows JavaScript to perform **non-blocking I
 ## 🧵 Microtask Queue vs Callback Queue
 
 | Feature               | Microtask Queue                         | Callback Queue (Macrotask)            |
-|----------------------|------------------------------------------|---------------------------------------|
-| Priority             | Higher                                   | Lower                                 |
-| Runs When            | Immediately after current task           | After microtasks are complete         |
-| Examples             | `Promise.then`                           | `setTimeout`, `setInterval`,          |
+|-----------------------|-----------------------------------------|---------------------------------------|
+| Priority              | Higher                                  | Lower                                 |
+| Runs When             | Immediately after current task          | After microtasks are complete         |
+| Examples              | `Promise.then`                          | `setTimeout`, `setInterval`,          |
 
 ---
 
