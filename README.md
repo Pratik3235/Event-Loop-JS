@@ -40,6 +40,11 @@ The Event Loop is a mechanism that allows JavaScript to perform **non-blocking I
 
 ---
 
+🖼️ [Visual: JavaScript Event Loop Diagram](https://excalidraw.com/#json=-_jwAlwSSlReV7JHIfKy1,x9K8wgI-sTRydGEJ8quDhw)
+
+This diagram illustrates how the call stack, Web APIs, and task queues interact via the Event Loop.
+
+
 ## 📦 Example Code
 
 ```js
@@ -60,3 +65,4 @@ Start
 End
 Microtask: Promise.then
 Macrotask: setTimeout
+
