@@ -1,0 +1,53 @@
+🛠️ Task: Simulate a Day Schedule with Event Loop Concepts
+📋 Objective:
+Build a Node.js script that simulates a person's day (like waking up, eating, working, etc.) using:
+
+✅ setTimeout (macrotasks)
+
+✅ Promises (microtasks)
+
+✅ Async/await for clean flow
+
+✅ Logging the order of execution to understand how the Event Loop handles everything
+
+🔧 Requirements:
+Use setTimeout to simulate time delays for:
+
+wakeUp()
+
+eatBreakfast()
+
+goToWork()
+
+comeHome()
+
+sleep()
+
+Each function should:
+
+Log the start time (e.g., "Waking up...")
+
+Return a Promise that resolves after a short delay (setTimeout)
+
+Chain the tasks using async/await to simulate a full day in sequence.
+
+Add a Promise.resolve().then(...) somewhere in between to test microtask priority.
+
+📦 Example Output:
+bash
+Copy
+Edit
+Script started
+Waking up...
+Microtask: Checking calendar
+Ate breakfast
+Went to work
+Came home
+Slept
+Script ended
+🧠 Bonus Challenge:
+Add a rejected promise in the middle (e.g., goToWork fails randomly).
+
+Use try/catch to handle that error gracefully.
+
+Add a fallback (e.g., "Took a leave and stayed home") if work fails.
